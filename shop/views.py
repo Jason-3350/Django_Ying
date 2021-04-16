@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
 
 # Create your views here.
-from shop.models import Goods
+from shop.models import Goods, Order, Cart
 
 
 class Basket:
@@ -83,14 +83,11 @@ def payment(request):
     order = Order.objects.create(customer=user.customer)
     order.refresh_from_db()
     for product in products:
-        product_item = get_object_or_404(Product, id=product.id)
+        product_item = get_object_or_404(Goods, id=product.id)
         cart = Cart.objects.create(product=product_item, quantity=product.quantity)
         cart.refresh_from_db()
-        line_iten = LineItem.objects.create(quantity=product.quantity, product=product_item,
-                                            cart=cart, order=order)
-
-    request.session['basket'].clear()
-    request.session['deleted'] = 'thanks for your purchase'
+    # request.session['basket'].clear()
+    del request.session['basket']
     return redirect('product_list')
 
 # def payment(request):
@@ -108,3 +105,4 @@ def payment(request):
 #     request.session['basket'].clear()
 #     request.session['deleted'] = 'thanks for your purchase'
 #     return redirect('product_list')
+

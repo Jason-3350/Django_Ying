@@ -40,3 +40,12 @@ class Order(models.Model):
 
     def __str__(self):
         return f'{self.customer},{self.created_date}'
+
+
+class Cart(models.Model):
+    product = models.ForeignKey('shop.Goods', on_delete=models.CASCADE, related_name='carts')
+    quantity = models.IntegerField()
+    created_date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'{self.product},{self.quantity},{self.created_date}'
