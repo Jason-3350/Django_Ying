@@ -10,13 +10,13 @@ from account.forms import RegForm, LogForm, PwdChangeForm
 
 
 def register(request):  # register function
-    form_obj = RegForm()
+    form_obj = RegForm()  # form helps that verify your input is correct or not
     if request.method == 'POST':
         form_obj = RegForm(request.POST)
         if form_obj.is_valid():
             username = request.POST.get('username')
             password = request.POST.get('password')
-            User.objects.create_user(username=username, password=password)
+            User.objects.create_user(username=username, password=password)  # User is a built in table
             return redirect('login')
     return render(request, 'account/register.html', {'form': form_obj})
 

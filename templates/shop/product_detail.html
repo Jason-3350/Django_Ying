@@ -7,7 +7,7 @@
     </ur>
 
     <p>
-    <form action="" method="post">
+    <form action="/product/buy/" method="post">
         {% csrf_token %}
         <p>Buy one for yourself</p>
         <input type='hidden' name='id' value="{{ product.id }}">
@@ -15,5 +15,4 @@
         <input type="submit" value="Purchase">
     </form>
     </p>
-
 {% endblock %}
