@@ -1,0 +1,26 @@
+{#{% extends 'base.html' %}#}
+{#{% block content %}#}
+{#    <h1>Acme Shopping: Your Basket</h1>#}
+{##}
+{#    <h2>You have these in your basket:</h2>#}
+{#    {% for product in products %}#}
+{##}
+{#        <p>You put {{ product.quantity }} of our <b> {{ product.name }} </b> which costs {{ product.price }} in your basket.</p>#}
+{##}
+{#    {% endfor %}#}
+{#    <a href="{% url 'purchase' %}">Purchase</a>#}
+{#{% endblock %}#}
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Acme Shopping: Your Basket</h1>
+
+    <h2>You have these in your basket:</h2>
+    {# each product represent one Basket#}
+    {% for product in products %}
+
+        <p>You put {{ product.quantity }} of our <b> {{ product.name }} </b> which costs {% widthratio product.price 1 product.quantity %} in your
+            basket.</p>
+
+    {% endfor %}
+    <a href="{% url 'purchase' %}">Purchase</a>
+{% endblock %}
