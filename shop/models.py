@@ -46,6 +46,7 @@ class Cart(models.Model):
     product = models.ForeignKey('shop.Goods', on_delete=models.CASCADE, related_name='carts')
     quantity = models.IntegerField()
     created_date = models.DateTimeField(auto_now_add=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, default=0)
 
     def __str__(self):
-        return f'{self.product},{self.quantity},{self.created_date}'
+        return f'{self.product},{self.quantity},{self.created_date},{self.user}'

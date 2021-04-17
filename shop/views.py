@@ -84,7 +84,7 @@ def payment(request):
     order.refresh_from_db()
     for product in products:
         product_item = get_object_or_404(Goods, id=product.id)
-        cart = Cart.objects.create(product=product_item, quantity=product.quantity)
+        cart = Cart.objects.create(product=product_item, quantity=product.quantity, user_id=user.id)
         cart.refresh_from_db()
     # request.session['basket'].clear()
     del request.session['basket']
@@ -105,4 +105,3 @@ def payment(request):
 #     request.session['basket'].clear()
 #     request.session['deleted'] = 'thanks for your purchase'
 #     return redirect('product_list')
-
