@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
-
+from django.core.paginator import Paginator, InvalidPage, EmptyPage, PageNotAnInteger
 # Create your views here.
 from shop.models import Goods, Order, Cart
 
@@ -39,13 +39,39 @@ def basket(request):
 #     products = Goods.objects.all()
 #     return render(request, 'shop/product_list.html', context={'products': products})
 
+# def product_list(request):
+#     products = Goods.objects.all()
+#     basket = request.session.get('basket', [])  # if dont have session of basket then make a new list
+#     request.session['basket'] = basket
+#     print('product_list basket is %s' % basket)
+#     print(type(basket))
+#     return render(request, 'shop/product_list.html', {'products': products})
+
+# def product_list(request):
+#     products = Goods.objects.all()
+#     basket = request.session.get('basket', [])  # if dont have session of basket then make a new list
+#     request.session['basket'] = basket
+#     print('product_list basket is %s' % basket)
+#     print(type(basket))
+#     return render(request, 'shop/product_list.html', {'products': products})
+
+
 def product_list(request):
-    products = Goods.objects.all()
     basket = request.session.get('basket', [])  # if dont have session of basket then make a new list
     request.session['basket'] = basket
     print('product_list basket is %s' % basket)
     print(type(basket))
-    return render(request, 'shop/product_list.html', {'products': products})
+
+    # 设置接收页码
+    page_Index = request.GET.get('page')
+    # 查询所有的服务器信息
+    products = Goods.objects.all()
+    # 将地区信息按一页2条进行分页
+    p = Paginator(products, 50)
+    # 获取第page_Index页的数据
+    server_page_list = p.get_page(page_Index)
+    # 将当前页码、当前页的数据、页码信息传递到模板中
+    return render(request, 'shop/product_list.html', {'server_page_list': server_page_list})
 
 
 def product_detail(request, id):
@@ -56,11 +82,14 @@ def product_detail(request, id):
 def product_buy(request):
     if request.method == "POST":
         temp_id = int(request.POST.get('id', ''))
-        quantity = int(request.POST.get('quantity', ''))
-        basket = request.session['basket']  # *******************************
-        print('product_buy basket is %s' % basket)
-        basket.append([temp_id, quantity])
-        request.session['basket'] = basket
+        try:
+            quantity = int(request.POST.get('quantity', ''))
+            basket = request.session['basket']  # *******************************
+            print('product_buy basket is %s' % basket)
+            basket.append([temp_id, quantity])
+            request.session['basket'] = basket
+        except Exception as e:
+            return redirect('product_list')
     return redirect('product_list')
 
 
@@ -89,19 +118,3 @@ def payment(request):
     # request.session['basket'].clear()
     del request.session['basket']
     return redirect('product_list')
-
-# def payment(request):
-#     products = get_basket(request)
-#     user = request.user
-#     order = Order.objects.create(customer=user.customer)
-#     order.refresh_from_db()
-#     for product in products:
-#         product_item = get_object_or_404(Product, id=product.id)
-#         cart = Cart.objects.create(product=product_item, quantity=product.quantity)
-#         cart.refresh_from_db()
-#         line_iten = LineItem.objects.create(quantity=product.quantity, product=product_item,
-#                                             cart=cart, order=order)
-#
-#     request.session['basket'].clear()
-#     request.session['deleted'] = 'thanks for your purchase'
-#     return redirect('product_list')

@@ -11,7 +11,7 @@
     <form action="/payment/" method="post">
         {% csrf_token %}
         <p>Buy one for yourself</p>
-        <input type='text' name='username' value="{{ request.user.username }}" disabled>
+        <input type='text' name='username' value="Current_User:  {{ request.user.username }}" disabled>
         <br>
         <input type='text' name='payment' value=" Add Card Type:">
         <input type="number" name="total" value="Total Payment:">

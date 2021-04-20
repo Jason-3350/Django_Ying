@@ -1,10 +1,37 @@
+{#{% extends 'base.html' %}#}
+{#{% block content %}#}
+{#    <h1>Product List</h1>#}
+{#    {% for product in products %}#}
+{#        <li>#}
+{#        <a href="{% url 'product_detail' id=product.id %}">{{ product.g_name }}</a>#}
+{#        </li>#}
+{#    {% endfor %}#}
+{##}
+{#{% endblock %}#}
+
+
 {% extends 'base.html' %}
 {% block content %}
-    <h1>Product List</h1>
-    {% for product in products %}
-        <li>
-        <a href="{% url 'product_detail' id=product.id %}">{{ product.g_name }}</a>
-        </li>
-    {% endfor %}
 
+    <ul>
+        {% for item in server_page_list %}
+            <li>
+                <a href="{% url 'product_detail' id=item.id %}">{{ item.g_name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if server_page_list.has_previous %}
+        <a href="?page=1">&laquo; First</a>
+        <a href="?page={{ server_page_list.previous_page_number }}">previous</a>
+    {% endif %}
+
+    <span class="current">
+        Page {{ server_page_list.number }} of {{ server_page_list.paginator.num_pages }}.
+    </span>
+
+    {% if server_page_list.has_next %}
+        <a href="?page={{ server_page_list.next_page_number }}">next</a>
+        <a href="?page={{ server_page_list.paginator.num_pages }}">Last &raquo;</a>
+    {% endif %}
 {% endblock %}
