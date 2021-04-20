@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+    <p>Current User: {{ request.user.username }}</p>
+    <table border="2">
+        <thead>
+        <tr>
+            <th>Good name</th>
+            <th>Good price</th>
+            <th>Good quantity</th>
+            <th>Order time</th>
+        </tr>
+        </thead>
+        {% for currentUser in currentUsers %}
+            <tr>
+                <td>{{ currentUser.product.g_name }}</td>
+                <td>{{ currentUser.product.g_price }}</td>
+                <td>{{ currentUser.quantity }}</td>
+                <td>{{ currentUser.created_date }}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+
+    {#    <form action="/del/" method="post">#}
+    {#        {% csrf_token %}#}
+    {#        <input type="submit" value="清库">#}
+    {#    </form>#}
+
+{% endblock %}

@@ -47,14 +47,6 @@ def basket(request):
 #     print(type(basket))
 #     return render(request, 'shop/product_list.html', {'products': products})
 
-# def product_list(request):
-#     products = Goods.objects.all()
-#     basket = request.session.get('basket', [])  # if dont have session of basket then make a new list
-#     request.session['basket'] = basket
-#     print('product_list basket is %s' % basket)
-#     print(type(basket))
-#     return render(request, 'shop/product_list.html', {'products': products})
-
 
 def product_list(request):
     basket = request.session.get('basket', [])  # if dont have session of basket then make a new list
@@ -62,15 +54,15 @@ def product_list(request):
     print('product_list basket is %s' % basket)
     print(type(basket))
 
-    # 设置接收页码
+    # Set receiving page number
     page_Index = request.GET.get('page')
-    # 查询所有的服务器信息
+    # Query all server information
     products = Goods.objects.all()
-    # 将地区信息按一页2条进行分页
-    p = Paginator(products, 50)
-    # 获取第page_Index页的数据
+    # Divide information into demand pages
+    p = Paginator(products, 30)
+    # Get page_ Index page data
     server_page_list = p.get_page(page_Index)
-    # 将当前页码、当前页的数据、页码信息传递到模板中
+    # Transfer the current page number, current page data and page number information to the template
     return render(request, 'shop/product_list.html', {'server_page_list': server_page_list})
 
 
@@ -84,7 +76,7 @@ def product_buy(request):
         temp_id = int(request.POST.get('id', ''))
         try:
             quantity = int(request.POST.get('quantity', ''))
-            basket = request.session['basket']  # *******************************
+            basket = request.session['basket']
             print('product_buy basket is %s' % basket)
             basket.append([temp_id, quantity])
             request.session['basket'] = basket
@@ -118,3 +110,9 @@ def payment(request):
     # request.session['basket'].clear()
     del request.session['basket']
     return redirect('product_list')
+
+
+def order(request):
+    user_id = request.user.id
+    currentUsers = Cart.objects.filter(user_id=user_id)
+    return render(request, 'shop/order.html', locals())
