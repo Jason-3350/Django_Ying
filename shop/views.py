@@ -109,7 +109,7 @@ def payment(request):
         cart.refresh_from_db()
     # request.session['basket'].clear()
     del request.session['basket']
-    return redirect('product_list')
+    return redirect('order')
 
 
 def order(request):

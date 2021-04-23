@@ -1,0 +1,539 @@
+1619147238611	geckodriver	INFO	Listening on 127.0.0.1:34909
+1619147239622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea39Fu1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619147242247	Marionette	INFO	Listening on port 37381
+1619147242366	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619147242472	Marionette	INFO	Stopped listening on port 37381
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619179650027	geckodriver	INFO	Listening on 127.0.0.1:46461
+1619179650030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ0CEfI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619179652670	Marionette	INFO	Listening on port 36063
+1619179652761	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619179652950	Marionette	INFO	Stopped listening on port 36063
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619179675833	geckodriver	INFO	Listening on 127.0.0.1:56975
+1619179675838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea6fSND"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619179677977	Marionette	INFO	Listening on port 45401
+1619179678063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619179678190	Marionette	INFO	Stopped listening on port 45401
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1619180441729	geckodriver	INFO	Listening on 127.0.0.1:43319
+1619180441733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexCvDpr"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:8712): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:8733): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619180443239	Marionette	INFO	Listening on port 41307
+1619180443258	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8830): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619180443793	Marionette	INFO	Stopped listening on port 41307
+1619180539621	geckodriver	INFO	Listening on 127.0.0.1:36501
+1619180539625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5TDsYf"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:8957): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:8978): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619180541331	Marionette	INFO	Listening on port 44387
+1619180541360	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9069): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619180541886	Marionette	INFO	Stopped listening on port 44387
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619180563709	geckodriver	INFO	Listening on 127.0.0.1:48417
+1619180563713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezxweHT"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:9183): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:9204): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619180565309	Marionette	INFO	Listening on port 35523
+1619180565336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619180565355	geckodriver	INFO	Listening on 127.0.0.1:50725
+
+(/usr/lib/firefox/firefox:9302): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619180566361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXw6JY6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619180568287	Marionette	INFO	Listening on port 33391
+1619180568387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619180568862	Marionette	INFO	Stopped listening on port 35523
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1619180575584	Marionette	INFO	Stopped listening on port 33391
+1619180597354	geckodriver	INFO	Listening on 127.0.0.1:58727
+1619180597357	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE8Ece3"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:9645): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:9666): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619180598802	Marionette	INFO	Listening on port 38109
+1619180598880	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619180598899	geckodriver	INFO	Listening on 127.0.0.1:43159
+
+(/usr/lib/firefox/firefox:9776): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619180599903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyIUDbv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619180601752	Marionette	INFO	Listening on port 42109
+1619180601837	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619180602035	Marionette	INFO	Stopped listening on port 42109
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1619180602908	Marionette	INFO	Stopped listening on port 38109
+1619181629458	geckodriver	INFO	Listening on 127.0.0.1:36829
+1619181629479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSPzyIO"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11204): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11230): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619181630954	Marionette	INFO	Listening on port 43681
+1619181631035	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11335): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619181631570	Marionette	INFO	Stopped listening on port 43681
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619181865842	geckodriver	INFO	Listening on 127.0.0.1:52161
+1619181865846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebojDLj"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11495): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11516): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619181867268	Marionette	INFO	Listening on port 38871
+1619181867368	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11618): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619181867888	Marionette	INFO	Stopped listening on port 38871
+1619181904490	geckodriver	INFO	Listening on 127.0.0.1:54561
+1619181904494	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebP2Kpr"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11721): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11742): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619181905908	Marionette	INFO	Listening on port 35037
+1619181906018	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11839): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619181906541	Marionette	INFO	Stopped listening on port 35037
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619181983609	geckodriver	INFO	Listening on 127.0.0.1:53357
+1619181983613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRg6WNc"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:11940): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:11961): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619181985060	Marionette	INFO	Listening on port 40777
+1619181985135	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12066): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619181985659	Marionette	INFO	Stopped listening on port 40777
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619182073802	geckodriver	INFO	Listening on 127.0.0.1:37119
+1619182073807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevLvEiB"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:12179): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:12200): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619182075274	Marionette	INFO	Listening on port 42689
+1619182075329	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12300): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619182075847	Marionette	INFO	Stopped listening on port 42689
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619182223622	geckodriver	INFO	Listening on 127.0.0.1:40823
+1619182223627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRmaPHP"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:12414): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:12435): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619182225386	Marionette	INFO	Listening on port 34249
+
+(/usr/lib/firefox/firefox:12529): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619182225451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619182225471	geckodriver	INFO	Listening on 127.0.0.1:38361
+1619182225475	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileie3dZD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619182227473	Marionette	INFO	Listening on port 37917
+1619182227505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619182227973	Marionette	INFO	Stopped listening on port 34249
+1619182245118	Marionette	INFO	Stopped listening on port 37917
+1619182329963	geckodriver	INFO	Listening on 127.0.0.1:53863
+1619182329971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH3eWit"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:12887): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:12908): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619182331422	Marionette	INFO	Listening on port 41753
+1619182331511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619182331532	geckodriver	INFO	Listening on 127.0.0.1:59557
+1619182331533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRSnveM"
+
+(/usr/lib/firefox/firefox:13041): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619182333433	Marionette	INFO	Listening on port 36663
+1619182333466	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619182334042	Marionette	INFO	Stopped listening on port 41753
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1619182338645	Marionette	INFO	Stopped listening on port 36663
+1619182576192	geckodriver	INFO	Listening on 127.0.0.1:39741
+1619182576196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY4lxk2"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:13412): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:13433): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619182577666	Marionette	INFO	Listening on port 43873
+1619182577721	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13537): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:13553): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:13593): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619182578257	Marionette	INFO	Stopped listening on port 43873
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619182961740	geckodriver	INFO	Listening on 127.0.0.1:39641
+1619182961743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD9g9ST"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:13835): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:13856): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619182963170	Marionette	INFO	Listening on port 46483
+1619182963269	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13954): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:13987): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619182963804	Marionette	INFO	Stopped listening on port 46483
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619183071622	geckodriver	INFO	Listening on 127.0.0.1:34787
+1619183071626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD5jOjd"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:14124): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14145): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619183073074	Marionette	INFO	Listening on port 37279
+1619183073149	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14257): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14273): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14313): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619183073682	Marionette	INFO	Stopped listening on port 37279
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619183401006	geckodriver	INFO	Listening on 127.0.0.1:50879
+1619183401010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileL7uO3U"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:14525): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14546): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619183402465	Marionette	INFO	Listening on port 46875
+1619183402531	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14649): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14665): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619183403061	Marionette	INFO	Stopped listening on port 46875
+
+(/usr/lib/firefox/firefox:14705): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619183575323	geckodriver	INFO	Listening on 127.0.0.1:45367
+1619183575327	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiled17VUz"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:14888): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:14909): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619183576825	Marionette	INFO	Listening on port 42311
+1619183576852	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15004): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15021): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619183577388	Marionette	INFO	Stopped listening on port 42311
+
+(/usr/lib/firefox/firefox:15060): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619183962248	geckodriver	INFO	Listening on 127.0.0.1:40321
+1619183962253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZPwJKs"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:15222): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15243): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619183963729	Marionette	INFO	Listening on port 34873
+1619183963774	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15341): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15375): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619183964310	Marionette	INFO	Stopped listening on port 34873
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619184387958	geckodriver	INFO	Listening on 127.0.0.1:51555
+1619184387962	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile90mcqH"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:15702): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:15723): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184389777	Marionette	INFO	Listening on port 38193
+
+(/usr/lib/firefox/firefox:15813): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619184389902	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15849): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619184400466	Marionette	INFO	Stopped listening on port 38193
+1619184480551	geckodriver	INFO	Listening on 127.0.0.1:60347
+1619184480556	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGJElQd"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:15993): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16014): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184482093	Marionette	INFO	Listening on port 38301
+1619184482204	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16110): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16145): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619184482747	Marionette	INFO	Stopped listening on port 38301
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619184552320	geckodriver	INFO	Listening on 127.0.0.1:37453
+1619184552324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6uh1qb"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:16259): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16280): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184553828	Marionette	INFO	Listening on port 39903
+1619184553849	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16388): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16421): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619184564403	Marionette	INFO	Stopped listening on port 39903
+1619184656407	geckodriver	INFO	Listening on 127.0.0.1:47507
+1619184656411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLWr3cm"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:16645): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16666): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184657887	Marionette	INFO	Listening on port 43493
+1619184657934	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16765): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:16797): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619184668497	Marionette	INFO	Stopped listening on port 43493
+1619184879847	geckodriver	INFO	Listening on 127.0.0.1:45467
+1619184879851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV3Lt3i"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:16979): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:17000): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184881376	Marionette	INFO	Listening on port 35165
+1619184881492	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619184881513	geckodriver	INFO	Listening on 127.0.0.1:43133
+1619184881516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCX7qNE"
+
+(/usr/lib/firefox/firefox:17098): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184884278	Marionette	INFO	Listening on port 33707
+1619184884367	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:17340): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619184884924	Marionette	INFO	Stopped listening on port 35165
+1619184893331	Marionette	INFO	Stopped listening on port 33707
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619184988583	geckodriver	INFO	Listening on 127.0.0.1:35011
+1619184988612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecjE3Dw"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:17522): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:17543): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184990570	Marionette	INFO	Listening on port 35287
+1619184990648	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619184990687	geckodriver	INFO	Listening on 127.0.0.1:49273
+1619184990690	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilee3WDae"
+
+(/usr/lib/firefox/firefox:17637): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619184992453	Marionette	INFO	Listening on port 42385
+1619184992517	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:17872): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619184993059	Marionette	INFO	Stopped listening on port 35287
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1619184998826	Marionette	INFO	Stopped listening on port 42385
+1619185142735	geckodriver	INFO	Listening on 127.0.0.1:52945
+1619185142742	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8O6S32"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:18077): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:18098): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619185144199	Marionette	INFO	Listening on port 45113
+1619185144265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619185144284	geckodriver	INFO	Listening on 127.0.0.1:37525
+
+(/usr/lib/firefox/firefox:18196): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619185145298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE0DhT8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619185147277	Marionette	INFO	Listening on port 34431
+1619185147326	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18433): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619185147864	Marionette	INFO	Stopped listening on port 45113
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1619185152615	Marionette	INFO	Stopped listening on port 34431
+1619190431641	geckodriver	INFO	Listening on 127.0.0.1:36549
+1619190431645	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexRtTDo"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:18926): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:18952): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619190433275	Marionette	INFO	Listening on port 45129
+1619190433382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619190433412	geckodriver	INFO	Listening on 127.0.0.1:44845
+
+(/usr/lib/firefox/firefox:19046): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1619190433445	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLBIpTh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619190435299	Marionette	INFO	Listening on port 35747
+1619190435378	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619190435552	Marionette	INFO	Stopped listening on port 35747
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1619190436422	Marionette	INFO	Stopped listening on port 45129
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1619191061138	geckodriver	INFO	Listening on 127.0.0.1:56329
+1619191061142	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--no-proxy-server" "--proxy-server=\'direct://\'" "--proxy-bypass-list=*" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyZgbjp"
+*** You are running in headless mode.
+
+(/usr/lib/firefox/firefox:19823): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:19844): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619191062695	Marionette	INFO	Listening on port 38093
+1619191062765	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619191062785	geckodriver	INFO	Listening on 127.0.0.1:52539
+1619191062787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVa4a0C"
+
+(/usr/lib/firefox/firefox:19944): GLib-GObject-CRITICAL **: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619191064845	Marionette	INFO	Listening on port 34397
+1619191064918	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619191065291	Marionette	INFO	Stopped listening on port 38093
+1619191078878	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1619191080717	Marionette	INFO	Stopped listening on port 34397
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619191421620	geckodriver	INFO	Listening on 127.0.0.1:48543
+1619191421624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8z5iGw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619191423351	Marionette	INFO	Listening on port 33141
+1619191423453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619191423603	Marionette	INFO	Stopped listening on port 33141
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
